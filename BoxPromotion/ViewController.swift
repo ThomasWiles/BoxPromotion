@@ -10,6 +10,36 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var closedBox: UIImageView!
+    
+    @IBOutlet var openBox: UIImageView!
+    
+    @IBOutlet var rewardLabel: UILabel!
+    
+    @IBAction func boxButton(sender: AnyObject) {
+        openBox.hidden = false
+        rewardLabel.hidden = false
+        closedBox.hidden = true
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
