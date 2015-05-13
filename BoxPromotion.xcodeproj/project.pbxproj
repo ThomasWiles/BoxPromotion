@@ -13,8 +13,8 @@
 		EF1287341B038712009EB204 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1287331B038712009EB204 /* Images.xcassets */; };
 		EF1287371B038712009EB204 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF1287351B038712009EB204 /* LaunchScreen.xib */; };
 		EF1287431B038713009EB204 /* BoxPromotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1287421B038713009EB204 /* BoxPromotionTests.swift */; };
-		EF12874D1B038BCA009EB204 /* 3_D-Box.png in Resources */ = {isa = PBXBuildFile; fileRef = EF12874C1B038BCA009EB204 /* 3_D-Box.png */; };
-		EF12874F1B038CBB009EB204 /* standard-box-l1.png in Resources */ = {isa = PBXBuildFile; fileRef = EF12874E1B038CBB009EB204 /* standard-box-l1.png */; };
+		EF12874D1B038BCA009EB204 /* .. in Resources */ = {isa = PBXBuildFile; fileRef = EF12874C1B038BCA009EB204 /* .. */; };
+		EF12874F1B038CBB009EB204 /* .. in Resources */ = {isa = PBXBuildFile; fileRef = EF12874E1B038CBB009EB204 /* .. */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 		EF12873C1B038713009EB204 /* BoxPromotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxPromotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1287411B038713009EB204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF1287421B038713009EB204 /* BoxPromotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxPromotionTests.swift; sourceTree = "<group>"; };
-		EF12874C1B038BCA009EB204 /* 3_D-Box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3_D-Box.png"; path = "../../../../Desktop/3_D-Box.png"; sourceTree = "<group>"; };
-		EF12874E1B038CBB009EB204 /* standard-box-l1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "standard-box-l1.png"; path = "../../../../Desktop/standard-box-l1.png"; sourceTree = "<group>"; };
+		EF12874C1B038BCA009EB204 /* .. */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ..; sourceTree = "<group>"; };
+		EF12874E1B038CBB009EB204 /* .. */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +81,8 @@
 		EF1287291B038712009EB204 /* BoxPromotion */ = {
 			isa = PBXGroup;
 			children = (
-				EF12874E1B038CBB009EB204 /* standard-box-l1.png */,
-				EF12874C1B038BCA009EB204 /* 3_D-Box.png */,
+				EF12874E1B038CBB009EB204 /* .. */,
+				EF12874C1B038BCA009EB204 /* .. */,
 				EF12872C1B038712009EB204 /* AppDelegate.swift */,
 				EF12872E1B038712009EB204 /* ViewController.swift */,
 				EF1287301B038712009EB204 /* Main.storyboard */,
@@ -200,9 +200,9 @@
 			files = (
 				EF1287321B038712009EB204 /* Main.storyboard in Resources */,
 				EF1287371B038712009EB204 /* LaunchScreen.xib in Resources */,
-				EF12874D1B038BCA009EB204 /* 3_D-Box.png in Resources */,
+				EF12874D1B038BCA009EB204 /* .. in Resources */,
 				EF1287341B038712009EB204 /* Images.xcassets in Resources */,
-				EF12874F1B038CBB009EB204 /* standard-box-l1.png in Resources */,
+				EF12874F1B038CBB009EB204 /* .. in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +419,7 @@
 				EF1287481B038713009EB204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF1287491B038713009EB204 /* Build configuration list for PBXNativeTarget "BoxPromotionTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +428,7 @@
 				EF12874B1B038713009EB204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
